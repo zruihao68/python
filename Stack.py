@@ -1,4 +1,4 @@
-class Stack(Object):
+class Stack(object):
     def __init__(st,size):
         st.stack = []
         st.size = size
