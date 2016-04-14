@@ -3,8 +3,8 @@ class Queue(object):
     def __init__(qu,size):
         qu.queue = []
         qu.size = size
-        qu.head = -1
-        qu.tail = -1
+        qu.head = -1               #队首指针
+        qu.tail = -1              #队尾指针
     def Empty(qu):
         if qu.head == qu.tail:
             return True
